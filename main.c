@@ -19,7 +19,7 @@ int main()
     scanf("%d",&pos);
     for(i=pos;i<n;i++)
     {
-        a[i]=a[i+1];
+        a[i-1]=a[i];
 
     }
     n--;
